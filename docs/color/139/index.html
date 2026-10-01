@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Color Combinations</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; background: #fafafa; color: #222; }
+  nav { padding: 1rem 2rem; background: #fff; border-bottom: 1px solid #e5e5e5; display: flex; gap: 1.5rem; }
+  nav a { color: #222; text-decoration: none; font-weight: 600; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 12px; }
+  .swatch { aspect-ratio: 1; border-radius: 8px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+  a.swatch:hover { outline: 3px solid #222; outline-offset: 2px; }
+  .swatch { position: relative; }
+  .swatch:hover::after { content: attr(data-name); position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%); background: #222; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; white-space: nowrap; pointer-events: none; z-index: 1; }
+  .combo { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
+  .combo .id { width: 3rem; font-variant-numeric: tabular-nums; color: #666; }
+  .combo .swatch { width: 64px; }
+  .hero { width: 160px; }
+  h1 { font-size: 1.25rem; margin: .75rem 0 1.5rem; }
+</style>
+</head>
+<body>
+<nav><a href="/Color_comb/">Catalogue</a><a href="/Color_comb/combinations/">Combinations</a></nav>
+<main>
+<div class="swatch hero" style="background:#a36aa5"></div>
+<h1>Aconite Violet</h1>
+<div class="combo">
+  <span class="id">#43</span>
+  <a class="swatch" href="/Color_comb/color/1/" data-name="Corinthian Pink" style="background:#f8b6ba"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a>
+</div>
+<div class="combo">
+  <span class="id">#64</span>
+  <a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a><a class="swatch" href="/Color_comb/color/141/" data-name="Dark Soft Violet" style="background:#66629c"></a>
+</div>
+<div class="combo">
+  <span class="id">#90</span>
+  <a class="swatch" href="/Color_comb/color/8/" data-name="Eosine Pink" style="background:#f37f94"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a>
+</div>
+<div class="combo">
+  <span class="id">#187</span>
+  <a class="swatch" href="/Color_comb/color/123/" data-name="Helvetia Blue" style="background:#005b8d"></a><a class="swatch" href="/Color_comb/color/134/" data-name="Grayish Lavender - B" style="background:#c0a9b3"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a>
+</div>
+<div class="combo">
+  <span class="id">#220</span>
+  <a class="swatch" href="/Color_comb/color/25/" data-name="Pomegranite Purple" style="background:#b71f57"></a><a class="swatch" href="/Color_comb/color/49/" data-name="Ochraceous Salmon" style="background:#d8a37b"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a>
+</div>
+<div class="combo">
+  <span class="id">#257</span>
+  <a class="swatch" href="/Color_comb/color/16/" data-name="Spectrum Red" style="background:#e31f26"></a><a class="swatch" href="/Color_comb/color/60/" data-name="Orange Yellow" style="background:#fcb315"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a>
+</div>
+<div class="combo">
+  <span class="id">#269</span>
+  <a class="swatch" href="/Color_comb/color/13/" data-name="Raw Sienna" style="background:#bb7125"></a><a class="swatch" href="/Color_comb/color/35/" data-name="Pale Burnt Lake" style="background:#802626"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a><a class="swatch" href="/Color_comb/color/158/" data-name="Black" style="background:#111314"></a>
+</div>
+<div class="combo">
+  <span class="id">#301</span>
+  <a class="swatch" href="/Color_comb/color/16/" data-name="Spectrum Red" style="background:#e31f26"></a><a class="swatch" href="/Color_comb/color/41/" data-name="Ivory Buff" style="background:#ebd3a2"></a><a class="swatch" href="/Color_comb/color/96/" data-name="Rainette Green" style="background:#8fa071"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a>
+</div>
+<div class="combo">
+  <span class="id">#307</span>
+  <a class="swatch" href="/Color_comb/color/22/" data-name="Carmine" style="background:#cc1236"></a><a class="swatch" href="/Color_comb/color/133/" data-name="Grayish Lavender - A" style="background:#b5b1d8"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a><a class="swatch" href="/Color_comb/color/151/" data-name="Cotinga Purple" style="background:#501345"></a>
+</div>
+<div class="combo">
+  <span class="id">#324</span>
+  <a class="swatch" href="/Color_comb/color/29/" data-name="Pompeian Red" style="background:#ab2439"></a><a class="swatch" href="/Color_comb/color/120/" data-name="Olympic Blue" style="background:#5a82b3"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a><a class="swatch" href="/Color_comb/color/154/" data-name="Neutral Gray" style="background:#b6bfc1"></a>
+</div>
+<div class="combo">
+  <span class="id">#344</span>
+  <a class="swatch" href="/Color_comb/color/45/" data-name="Cinnamon Buff" style="background:#fdc57e"></a><a class="swatch" href="/Color_comb/color/126/" data-name="Deep Lyons Blue" style="background:#1c4286"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a><a class="swatch" href="/Color_comb/color/158/" data-name="Black" style="background:#111314"></a>
+</div>
+
+</main>
+</body>
+</html>

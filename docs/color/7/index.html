@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Color Combinations</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; background: #fafafa; color: #222; }
+  nav { padding: 1rem 2rem; background: #fff; border-bottom: 1px solid #e5e5e5; display: flex; gap: 1.5rem; }
+  nav a { color: #222; text-decoration: none; font-weight: 600; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 12px; }
+  .swatch { aspect-ratio: 1; border-radius: 8px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+  a.swatch:hover { outline: 3px solid #222; outline-offset: 2px; }
+  .swatch { position: relative; }
+  .swatch:hover::after { content: attr(data-name); position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%); background: #222; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; white-space: nowrap; pointer-events: none; z-index: 1; }
+  .combo { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
+  .combo .id { width: 3rem; font-variant-numeric: tabular-nums; color: #666; }
+  .combo .swatch { width: 64px; }
+  .hero { width: 160px; }
+  h1 { font-size: 1.25rem; margin: .75rem 0 1.5rem; }
+</style>
+</head>
+<body>
+<nav><a href="/Color_comb/">Catalogue</a><a href="/Color_comb/combinations/">Combinations</a></nav>
+<main>
+<div class="swatch hero" style="background:#f48067"></div>
+<h1>Grenadine Pink</h1>
+<div class="combo">
+  <span class="id">#6</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/131/" data-name="Deep Indigo" style="background:#051230"></a>
+</div>
+<div class="combo">
+  <span class="id">#21</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/99/" data-name="Sea Green" style="background:#00b49b"></a>
+</div>
+<div class="combo">
+  <span class="id">#112</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/158/" data-name="Black" style="background:#111314"></a>
+</div>
+<div class="combo">
+  <span class="id">#166</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/40/" data-name="Naples Yellow" style="background:#fbe6a0"></a><a class="swatch" href="/Color_comb/color/132/" data-name="Deep Slate Green" style="background:#112f2c"></a>
+</div>
+<div class="combo">
+  <span class="id">#193</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/40/" data-name="Naples Yellow" style="background:#fbe6a0"></a><a class="swatch" href="/Color_comb/color/101/" data-name="Light Porcelain Green" style="background:#00908a"></a>
+</div>
+<div class="combo">
+  <span class="id">#201</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/76/" data-name="Olive" style="background:#837e31"></a><a class="swatch" href="/Color_comb/color/114/" data-name="Cobalt Green" style="background:#96d1aa"></a>
+</div>
+<div class="combo">
+  <span class="id">#230</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/87/" data-name="Turquoise Green" style="background:#b5decc"></a><a class="swatch" href="/Color_comb/color/114/" data-name="Cobalt Green" style="background:#96d1aa"></a>
+</div>
+<div class="combo">
+  <span class="id">#300</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/46/" data-name="Cream Yellow" style="background:#fdbf68"></a><a class="swatch" href="/Color_comb/color/87/" data-name="Turquoise Green" style="background:#b5decc"></a><a class="swatch" href="/Color_comb/color/115/" data-name="Calamine BLue" style="background:#78cdd0"></a>
+</div>
+<div class="combo">
+  <span class="id">#315</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/38/" data-name="Sulpher Yellow" style="background:#f5ecc2"></a><a class="swatch" href="/Color_comb/color/47/" data-name="Golden Yellow" style="background:#f3a257"></a><a class="swatch" href="/Color_comb/color/137/" data-name="Eupatorium Purple" style="background:#bf5892"></a>
+</div>
+<div class="combo">
+  <span class="id">#341</span>
+  <a class="swatch" href="/Color_comb/color/7/" data-name="Grenadine Pink" style="background:#f48067"></a><a class="swatch" href="/Color_comb/color/106/" data-name="Cossack Green" style="background:#437742"></a><a class="swatch" href="/Color_comb/color/109/" data-name="Deep Slate Olive" style="background:#253122"></a><a class="swatch" href="/Color_comb/color/112/" data-name="Light Glaucous Blue" style="background:#a5c8d1"></a>
+</div>
+
+</main>
+</body>
+</html>

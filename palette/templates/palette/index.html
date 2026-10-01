@@ -1,0 +1,6 @@
+{% extends "palette/base.html" %}
+{% block content %}
+<div class="grid">
+  {% for c in colors %}<a class="swatch" href="{% url 'color' c.id %}" data-name="{{ c.name }}" style="background:{{ c.hex }}"></a>{% endfor %}
+</div>
+{% endblock %}

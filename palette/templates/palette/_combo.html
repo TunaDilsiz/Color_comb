@@ -1,0 +1,4 @@
+<div class="combo">
+  <span class="id">#{{ cid }}</span>
+  {% for c in colors %}<a class="swatch" href="{% url 'color' c.id %}" data-name="{{ c.name }}" style="background:{{ c.hex }}"></a>{% endfor %}
+</div>

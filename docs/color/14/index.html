@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Color Combinations</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; background: #fafafa; color: #222; }
+  nav { padding: 1rem 2rem; background: #fff; border-bottom: 1px solid #e5e5e5; display: flex; gap: 1.5rem; }
+  nav a { color: #222; text-decoration: none; font-weight: 600; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 12px; }
+  .swatch { aspect-ratio: 1; border-radius: 8px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+  a.swatch:hover { outline: 3px solid #222; outline-offset: 2px; }
+  .swatch { position: relative; }
+  .swatch:hover::after { content: attr(data-name); position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%); background: #222; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; white-space: nowrap; pointer-events: none; z-index: 1; }
+  .combo { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
+  .combo .id { width: 3rem; font-variant-numeric: tabular-nums; color: #666; }
+  .combo .swatch { width: 64px; }
+  .hero { width: 160px; }
+  h1 { font-size: 1.25rem; margin: .75rem 0 1.5rem; }
+</style>
+</head>
+<body>
+<nav><a href="/Color_comb/">Catalogue</a><a href="/Color_comb/combinations/">Combinations</a></nav>
+<main>
+<div class="swatch hero" style="background:#c56127"></div>
+<h1>Vinaceous Tawny</h1>
+<div class="combo">
+  <span class="id">#40</span>
+  <a class="swatch" href="/Color_comb/color/14/" data-name="Vinaceous Tawny" style="background:#c56127"></a><a class="swatch" href="/Color_comb/color/70/" data-name="Citron Yellow" style="background:#b2b73e"></a>
+</div>
+<div class="combo">
+  <span class="id">#85</span>
+  <a class="swatch" href="/Color_comb/color/14/" data-name="Vinaceous Tawny" style="background:#c56127"></a><a class="swatch" href="/Color_comb/color/122/" data-name="Antwarp Blue" style="background:#007190"></a>
+</div>
+<div class="combo">
+  <span class="id">#244</span>
+  <a class="swatch" href="/Color_comb/color/4/" data-name="Light Brown Drab" style="background:#b59392"></a><a class="swatch" href="/Color_comb/color/14/" data-name="Vinaceous Tawny" style="background:#c56127"></a><a class="swatch" href="/Color_comb/color/95/" data-name="Andover Green" style="background:#6d7e77"></a><a class="swatch" href="/Color_comb/color/122/" data-name="Antwarp Blue" style="background:#007190"></a>
+</div>
+
+</main>
+</body>
+</html>

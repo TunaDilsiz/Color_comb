@@ -1,0 +1,6 @@
+{% extends "palette/base.html" %}
+{% block content %}
+<div class="swatch hero" style="background:{{ color.hex }}"></div>
+<h1>{{ color.name }}</h1>
+{% for cid, colors in combos %}{% include "palette/_combo.html" %}{% endfor %}
+{% endblock %}

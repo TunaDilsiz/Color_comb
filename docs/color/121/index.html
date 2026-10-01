@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Color Combinations</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; background: #fafafa; color: #222; }
+  nav { padding: 1rem 2rem; background: #fff; border-bottom: 1px solid #e5e5e5; display: flex; gap: 1.5rem; }
+  nav a { color: #222; text-decoration: none; font-weight: 600; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 12px; }
+  .swatch { aspect-ratio: 1; border-radius: 8px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+  a.swatch:hover { outline: 3px solid #222; outline-offset: 2px; }
+  .swatch { position: relative; }
+  .swatch:hover::after { content: attr(data-name); position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%); background: #222; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; white-space: nowrap; pointer-events: none; z-index: 1; }
+  .combo { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
+  .combo .id { width: 3rem; font-variant-numeric: tabular-nums; color: #666; }
+  .combo .swatch { width: 64px; }
+  .hero { width: 160px; }
+  h1 { font-size: 1.25rem; margin: .75rem 0 1.5rem; }
+</style>
+</head>
+<body>
+<nav><a href="/Color_comb/">Catalogue</a><a href="/Color_comb/combinations/">Combinations</a></nav>
+<main>
+<div class="swatch hero" style="background:#006eb8"></div>
+<h1>Blue</h1>
+<div class="combo">
+  <span class="id">#49</span>
+  <a class="swatch" href="/Color_comb/color/111/" data-name="Pale King&#x27;s Blue" style="background:#a7d4e4"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a>
+</div>
+<div class="combo">
+  <span class="id">#51</span>
+  <a class="swatch" href="/Color_comb/color/28/" data-name="Carmine Red" style="background:#a62c37"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a>
+</div>
+<div class="combo">
+  <span class="id">#88</span>
+  <a class="swatch" href="/Color_comb/color/42/" data-name="Seashell Pink" style="background:#fdd4bd"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a>
+</div>
+<div class="combo">
+  <span class="id">#143</span>
+  <a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a><a class="swatch" href="/Color_comb/color/136/" data-name="Lilac" style="background:#b984af"></a><a class="swatch" href="/Color_comb/color/156/" data-name="Warm Gray" style="background:#a1a39a"></a>
+</div>
+<div class="combo">
+  <span class="id">#154</span>
+  <a class="swatch" href="/Color_comb/color/22/" data-name="Carmine" style="background:#cc1236"></a><a class="swatch" href="/Color_comb/color/54/" data-name="Yellow" style="background:#fff200"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a>
+</div>
+<div class="combo">
+  <span class="id">#186</span>
+  <a class="swatch" href="/Color_comb/color/32/" data-name="Hay&#x27;s Russet" style="background:#793327"></a><a class="swatch" href="/Color_comb/color/49/" data-name="Ochraceous Salmon" style="background:#d8a37b"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a>
+</div>
+<div class="combo">
+  <span class="id">#191</span>
+  <a class="swatch" href="/Color_comb/color/4/" data-name="Light Brown Drab" style="background:#b59392"></a><a class="swatch" href="/Color_comb/color/59/" data-name="Yellow Ocher" style="background:#e2b540"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a>
+</div>
+<div class="combo">
+  <span class="id">#215</span>
+  <a class="swatch" href="/Color_comb/color/46/" data-name="Cream Yellow" style="background:#fdbf68"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a><a class="swatch" href="/Color_comb/color/137/" data-name="Eupatorium Purple" style="background:#bf5892"></a>
+</div>
+<div class="combo">
+  <span class="id">#257</span>
+  <a class="swatch" href="/Color_comb/color/16/" data-name="Spectrum Red" style="background:#e31f26"></a><a class="swatch" href="/Color_comb/color/60/" data-name="Orange Yellow" style="background:#fcb315"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a><a class="swatch" href="/Color_comb/color/139/" data-name="Aconite Violet" style="background:#a36aa5"></a>
+</div>
+<div class="combo">
+  <span class="id">#267</span>
+  <a class="swatch" href="/Color_comb/color/46/" data-name="Cream Yellow" style="background:#fdbf68"></a><a class="swatch" href="/Color_comb/color/61/" data-name="Yellow Orange" style="background:#f99d1b"></a><a class="swatch" href="/Color_comb/color/100/" data-name="Benzol Green" style="background:#00978d"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a>
+</div>
+<div class="combo">
+  <span class="id">#295</span>
+  <a class="swatch" href="/Color_comb/color/46/" data-name="Cream Yellow" style="background:#fdbf68"></a><a class="swatch" href="/Color_comb/color/54/" data-name="Yellow" style="background:#fff200"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a><a class="swatch" href="/Color_comb/color/130/" data-name="Dull Violet Black" style="background:#1e0e3f"></a>
+</div>
+<div class="combo">
+  <span class="id">#333</span>
+  <a class="swatch" href="/Color_comb/color/19/" data-name="Burnt Sienna" style="background:#ae5224"></a><a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/114/" data-name="Cobalt Green" style="background:#96d1aa"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a>
+</div>
+
+</main>
+</body>
+</html>

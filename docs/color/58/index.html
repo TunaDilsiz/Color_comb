@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Color Combinations</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; background: #fafafa; color: #222; }
+  nav { padding: 1rem 2rem; background: #fff; border-bottom: 1px solid #e5e5e5; display: flex; gap: 1.5rem; }
+  nav a { color: #222; text-decoration: none; font-weight: 600; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 12px; }
+  .swatch { aspect-ratio: 1; border-radius: 8px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+  a.swatch:hover { outline: 3px solid #222; outline-offset: 2px; }
+  .swatch { position: relative; }
+  .swatch:hover::after { content: attr(data-name); position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%); background: #222; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; white-space: nowrap; pointer-events: none; z-index: 1; }
+  .combo { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
+  .combo .id { width: 3rem; font-variant-numeric: tabular-nums; color: #666; }
+  .combo .swatch { width: 64px; }
+  .hero { width: 160px; }
+  h1 { font-size: 1.25rem; margin: .75rem 0 1.5rem; }
+</style>
+</head>
+<body>
+<nav><a href="/Color_comb/">Catalogue</a><a href="/Color_comb/combinations/">Combinations</a></nav>
+<main>
+<div class="swatch hero" style="background:#d6b43e"></div>
+<h1>Olive Ocher</h1>
+<div class="combo">
+  <span class="id">#66</span>
+  <a class="swatch" href="/Color_comb/color/58/" data-name="Olive Ocher" style="background:#d6b43e"></a><a class="swatch" href="/Color_comb/color/79/" data-name="Olive Green" style="background:#6b7140"></a>
+</div>
+<div class="combo">
+  <span class="id">#148</span>
+  <a class="swatch" href="/Color_comb/color/58/" data-name="Olive Ocher" style="background:#d6b43e"></a><a class="swatch" href="/Color_comb/color/60/" data-name="Orange Yellow" style="background:#fcb315"></a><a class="swatch" href="/Color_comb/color/117/" data-name="Cerulian Blue" style="background:#0093a5"></a>
+</div>
+<div class="combo">
+  <span class="id">#149</span>
+  <a class="swatch" href="/Color_comb/color/58/" data-name="Olive Ocher" style="background:#d6b43e"></a><a class="swatch" href="/Color_comb/color/63/" data-name="Orange" style="background:#f37420"></a><a class="swatch" href="/Color_comb/color/132/" data-name="Deep Slate Green" style="background:#112f2c"></a>
+</div>
+<div class="combo">
+  <span class="id">#156</span>
+  <a class="swatch" href="/Color_comb/color/58/" data-name="Olive Ocher" style="background:#d6b43e"></a><a class="swatch" href="/Color_comb/color/114/" data-name="Cobalt Green" style="background:#96d1aa"></a><a class="swatch" href="/Color_comb/color/149/" data-name="Violet" style="background:#4f4086"></a>
+</div>
+<div class="combo">
+  <span class="id">#157</span>
+  <a class="swatch" href="/Color_comb/color/34/" data-name="Pansy Purple" style="background:#7d133a"></a><a class="swatch" href="/Color_comb/color/58/" data-name="Olive Ocher" style="background:#d6b43e"></a><a class="swatch" href="/Color_comb/color/120/" data-name="Olympic Blue" style="background:#5a82b3"></a>
+</div>
+<div class="combo">
+  <span class="id">#249</span>
+  <a class="swatch" href="/Color_comb/color/32/" data-name="Hay&#x27;s Russet" style="background:#793327"></a><a class="swatch" href="/Color_comb/color/53/" data-name="Ecru" style="background:#c2ae93"></a><a class="swatch" href="/Color_comb/color/58/" data-name="Olive Ocher" style="background:#d6b43e"></a><a class="swatch" href="/Color_comb/color/124/" data-name="Dark Medici Blue" style="background:#547076"></a>
+</div>
+<div class="combo">
+  <span class="id">#278</span>
+  <a class="swatch" href="/Color_comb/color/46/" data-name="Cream Yellow" style="background:#fdbf68"></a><a class="swatch" href="/Color_comb/color/58/" data-name="Olive Ocher" style="background:#d6b43e"></a><a class="swatch" href="/Color_comb/color/106/" data-name="Cossack Green" style="background:#437742"></a><a class="swatch" href="/Color_comb/color/125/" data-name="Dusky Green" style="background:#004f46"></a>
+</div>
+
+</main>
+</body>
+</html>

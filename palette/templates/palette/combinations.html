@@ -1,0 +1,4 @@
+{% extends "palette/base.html" %}
+{% block content %}
+{% for cid, colors in combos %}{% include "palette/_combo.html" %}{% endfor %}
+{% endblock %}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Color Combinations</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; background: #fafafa; color: #222; }
+  nav { padding: 1rem 2rem; background: #fff; border-bottom: 1px solid #e5e5e5; display: flex; gap: 1.5rem; }
+  nav a { color: #222; text-decoration: none; font-weight: 600; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 12px; }
+  .swatch { aspect-ratio: 1; border-radius: 8px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+  a.swatch:hover { outline: 3px solid #222; outline-offset: 2px; }
+  .swatch { position: relative; }
+  .swatch:hover::after { content: attr(data-name); position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%); background: #222; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; white-space: nowrap; pointer-events: none; z-index: 1; }
+  .combo { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
+  .combo .id { width: 3rem; font-variant-numeric: tabular-nums; color: #666; }
+  .combo .swatch { width: 64px; }
+  .hero { width: 160px; }
+  h1 { font-size: 1.25rem; margin: .75rem 0 1.5rem; }
+</style>
+</head>
+<body>
+<nav><a href="/Color_comb/">Catalogue</a><a href="/Color_comb/combinations/">Combinations</a></nav>
+<main>
+<div class="swatch hero" style="background:#1a7444"></div>
+<h1>Diamine Green</h1>
+<div class="combo">
+  <span class="id">#38</span>
+  <a class="swatch" href="/Color_comb/color/105/" data-name="Diamine Green" style="background:#1a7444"></a><a class="swatch" href="/Color_comb/color/126/" data-name="Deep Lyons Blue" style="background:#1c4286"></a>
+</div>
+<div class="combo">
+  <span class="id">#146</span>
+  <a class="swatch" href="/Color_comb/color/69/" data-name="Khaki" style="background:#bc892b"></a><a class="swatch" href="/Color_comb/color/81/" data-name="Deep Grayish Olive" style="background:#635a3a"></a><a class="swatch" href="/Color_comb/color/105/" data-name="Diamine Green" style="background:#1a7444"></a>
+</div>
+<div class="combo">
+  <span class="id">#217</span>
+  <a class="swatch" href="/Color_comb/color/35/" data-name="Pale Burnt Lake" style="background:#802626"></a><a class="swatch" href="/Color_comb/color/49/" data-name="Ochraceous Salmon" style="background:#d8a37b"></a><a class="swatch" href="/Color_comb/color/105/" data-name="Diamine Green" style="background:#1a7444"></a>
+</div>
+<div class="combo">
+  <span class="id">#242</span>
+  <a class="swatch" href="/Color_comb/color/8/" data-name="Eosine Pink" style="background:#f37f94"></a><a class="swatch" href="/Color_comb/color/19/" data-name="Burnt Sienna" style="background:#ae5224"></a><a class="swatch" href="/Color_comb/color/105/" data-name="Diamine Green" style="background:#1a7444"></a><a class="swatch" href="/Color_comb/color/158/" data-name="Black" style="background:#111314"></a>
+</div>
+<div class="combo">
+  <span class="id">#251</span>
+  <a class="swatch" href="/Color_comb/color/30/" data-name="Red" style="background:#a72144"></a><a class="swatch" href="/Color_comb/color/54/" data-name="Yellow" style="background:#fff200"></a><a class="swatch" href="/Color_comb/color/105/" data-name="Diamine Green" style="background:#1a7444"></a><a class="swatch" href="/Color_comb/color/157/" data-name="Slate Color" style="background:#34454c"></a>
+</div>
+<div class="combo">
+  <span class="id">#313</span>
+  <a class="swatch" href="/Color_comb/color/22/" data-name="Carmine" style="background:#cc1236"></a><a class="swatch" href="/Color_comb/color/54/" data-name="Yellow" style="background:#fff200"></a><a class="swatch" href="/Color_comb/color/105/" data-name="Diamine Green" style="background:#1a7444"></a><a class="swatch" href="/Color_comb/color/158/" data-name="Black" style="background:#111314"></a>
+</div>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Color Combinations</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 0; background: #fafafa; color: #222; }
+  nav { padding: 1rem 2rem; background: #fff; border-bottom: 1px solid #e5e5e5; display: flex; gap: 1.5rem; }
+  nav a { color: #222; text-decoration: none; font-weight: 600; }
+  nav a:hover { text-decoration: underline; }
+  main { padding: 2rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 12px; }
+  .swatch { aspect-ratio: 1; border-radius: 8px; display: block; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+  a.swatch:hover { outline: 3px solid #222; outline-offset: 2px; }
+  .swatch { position: relative; }
+  .swatch:hover::after { content: attr(data-name); position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%); background: #222; color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; white-space: nowrap; pointer-events: none; z-index: 1; }
+  .combo { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
+  .combo .id { width: 3rem; font-variant-numeric: tabular-nums; color: #666; }
+  .combo .swatch { width: 64px; }
+  .hero { width: 160px; }
+  h1 { font-size: 1.25rem; margin: .75rem 0 1.5rem; }
+</style>
+</head>
+<body>
+<nav><a href="/Color_comb/">Catalogue</a><a href="/Color_comb/combinations/">Combinations</a></nav>
+<main>
+<div class="swatch hero" style="background:#f8ed43"></div>
+<h1>Lemon Yellow</h1>
+<div class="combo">
+  <span class="id">#45</span>
+  <a class="swatch" href="/Color_comb/color/42/" data-name="Seashell Pink" style="background:#fdd4bd"></a><a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a>
+</div>
+<div class="combo">
+  <span class="id">#123</span>
+  <a class="swatch" href="/Color_comb/color/5/" data-name="Coral Red" style="background:#f58e84"></a><a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/147/" data-name="Taupe Brown" style="background:#7a4456"></a>
+</div>
+<div class="combo">
+  <span class="id">#138</span>
+  <a class="swatch" href="/Color_comb/color/47/" data-name="Golden Yellow" style="background:#f3a257"></a><a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/116/" data-name="Venice Green" style="background:#62c6bf"></a>
+</div>
+<div class="combo">
+  <span class="id">#158</span>
+  <a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/66/" data-name="Cinnamon Rufous" style="background:#c27544"></a><a class="swatch" href="/Color_comb/color/92/" data-name="Night Green" style="background:#87c540"></a>
+</div>
+<div class="combo">
+  <span class="id">#168</span>
+  <a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/128/" data-name="Vandar Poel&#x27;s Blue" style="background:#064f6e"></a><a class="swatch" href="/Color_comb/color/145/" data-name="Veronia Purple" style="background:#8c4c62"></a>
+</div>
+<div class="combo">
+  <span class="id">#173</span>
+  <a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/84/" data-name="Madder Brown" style="background:#762c19"></a><a class="swatch" href="/Color_comb/color/87/" data-name="Turquoise Green" style="background:#b5decc"></a>
+</div>
+<div class="combo">
+  <span class="id">#189</span>
+  <a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/109/" data-name="Deep Slate Olive" style="background:#253122"></a><a class="swatch" href="/Color_comb/color/116/" data-name="Venice Green" style="background:#62c6bf"></a>
+</div>
+<div class="combo">
+  <span class="id">#210</span>
+  <a class="swatch" href="/Color_comb/color/45/" data-name="Cinnamon Buff" style="background:#fdc57e"></a><a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/107/" data-name="Lincoln Green" style="background:#555832"></a>
+</div>
+<div class="combo">
+  <span class="id">#253</span>
+  <a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/62/" data-name="Apricot Orange" style="background:#f68c50"></a><a class="swatch" href="/Color_comb/color/151/" data-name="Cotinga Purple" style="background:#501345"></a><a class="swatch" href="/Color_comb/color/157/" data-name="Slate Color" style="background:#34454c"></a>
+</div>
+<div class="combo">
+  <span class="id">#259</span>
+  <a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/119/" data-name="Green Blue" style="background:#099197"></a><a class="swatch" href="/Color_comb/color/123/" data-name="Helvetia Blue" style="background:#005b8d"></a><a class="swatch" href="/Color_comb/color/156/" data-name="Warm Gray" style="background:#a1a39a"></a>
+</div>
+<div class="combo">
+  <span class="id">#289</span>
+  <a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/91/" data-name="Light Green Yellow" style="background:#c7d14f"></a><a class="swatch" href="/Color_comb/color/127/" data-name="Violet Blue" style="background:#40456a"></a><a class="swatch" href="/Color_comb/color/130/" data-name="Dull Violet Black" style="background:#1e0e3f"></a>
+</div>
+<div class="combo">
+  <span class="id">#298</span>
+  <a class="swatch" href="/Color_comb/color/13/" data-name="Raw Sienna" style="background:#bb7125"></a><a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/64/" data-name="Peach Red" style="background:#f15a30"></a><a class="swatch" href="/Color_comb/color/158/" data-name="Black" style="background:#111314"></a>
+</div>
+<div class="combo">
+  <span class="id">#306</span>
+  <a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/100/" data-name="Benzol Green" style="background:#00978d"></a><a class="swatch" href="/Color_comb/color/103/" data-name="Dull Viridian Green" style="background:#009465"></a><a class="swatch" href="/Color_comb/color/110/" data-name="Nile Blue" style="background:#bce4e5"></a>
+</div>
+<div class="combo">
+  <span class="id">#317</span>
+  <a class="swatch" href="/Color_comb/color/43/" data-name="Light Pinkish Cinnamon" style="background:#fcc79b"></a><a class="swatch" href="/Color_comb/color/53/" data-name="Ecru" style="background:#c2ae93"></a><a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/87/" data-name="Turquoise Green" style="background:#b5decc"></a>
+</div>
+<div class="combo">
+  <span class="id">#333</span>
+  <a class="swatch" href="/Color_comb/color/19/" data-name="Burnt Sienna" style="background:#ae5224"></a><a class="swatch" href="/Color_comb/color/55/" data-name="Lemon Yellow" style="background:#f8ed43"></a><a class="swatch" href="/Color_comb/color/114/" data-name="Cobalt Green" style="background:#96d1aa"></a><a class="swatch" href="/Color_comb/color/121/" data-name="Blue" style="background:#006eb8"></a>
+</div>
+
+</main>
+</body>
+</html>
